@@ -71,3 +71,14 @@ E:\Projects\BlazorApp1\BlazorApp1\obj\Debug\netstandard2.0\blazor\inputs.index.c
 E:\Projects\BlazorApp1\BlazorApp1\obj\Debug\netstandard2.0\blazor\index.html
 E:\Projects\BlazorApp1\BlazorApp1\obj\Debug\netstandard2.0\Pages\Todo.g.i.cs
 E:\Projects\BlazorApp1\BlazorApp1\obj\Debug\netstandard2.0\Pages\Todo.g.cs
+E:\Projects\BlazorApp1\BlazorApp1\bin\Debug\netstandard2.0\BlazorLib1.blazor.config
+E:\Projects\BlazorApp1\BlazorApp1\bin\Debug\netstandard2.0\dist\_framework\_bin\BlazorLib1.dll
+E:\Projects\BlazorApp1\BlazorApp1\bin\Debug\netstandard2.0\dist\_content\BlazorLib1\background.png
+E:\Projects\BlazorApp1\BlazorApp1\bin\Debug\netstandard2.0\dist\_content\BlazorLib1\exampleJsInterop.js
+E:\Projects\BlazorApp1\BlazorApp1\bin\Debug\netstandard2.0\dist\_content\BlazorLib1\styles.css
+E:\Projects\BlazorApp1\BlazorApp1\bin\Debug\netstandard2.0\BlazorLib1.dll
+E:\Projects\BlazorApp1\BlazorApp1\bin\Debug\netstandard2.0\BlazorLib1.pdb
+E:\Projects\BlazorApp1\BlazorApp1\obj\Debug\netstandard2.0\blazor\linker\BlazorLib1.dll
+E:\Projects\BlazorApp1\BlazorApp1\obj\Debug\netstandard2.0\blazor\_content\BlazorLib1\background.png
+E:\Projects\BlazorApp1\BlazorApp1\obj\Debug\netstandard2.0\blazor\_content\BlazorLib1\exampleJsInterop.js
+E:\Projects\BlazorApp1\BlazorApp1\obj\Debug\netstandard2.0\blazor\_content\BlazorLib1\styles.css

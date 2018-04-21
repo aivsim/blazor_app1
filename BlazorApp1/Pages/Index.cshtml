@@ -1,9 +1,16 @@
-﻿@page "/"
+﻿@addTagHelper *, BlazorLib1
+@using BlazorLib1
+@page "/"
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
-hey
-<Counter IncrementAmount="10" />
+
+<Counter bind-Value="@CurrentValue"/>
+<Component1 />
+
+@functions {
+    public int CurrentValue { get; set; } = 11;
+}

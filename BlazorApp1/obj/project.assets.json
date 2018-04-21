@@ -90,6 +90,20 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "BlazorLib1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Blazor.Browser": "0.2.1",
+          "Microsoft.AspNetCore.Blazor.Build": "0.2.1"
+        },
+        "compile": {
+          "bin/placeholder/BlazorLib1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorLib1.dll": {}
+        }
       }
     }
   },
@@ -546,10 +560,16 @@
         "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "BlazorLib1/1.0.0": {
+      "type": "project",
+      "path": "../BlazorLib1/BlazorLib1.csproj",
+      "msbuildProject": "../BlazorLib1/BlazorLib1.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "BlazorLib1 >= 1.0.0",
       "Microsoft.AspNetCore.Blazor.Browser >= 0.2.1",
       "Microsoft.AspNetCore.Blazor.Build >= 0.2.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.0-preview2-final",
@@ -585,7 +605,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\BlazorApp1\\BlazorLib1\\BlazorLib1.csproj": {
+              "projectPath": "E:\\Projects\\BlazorApp1\\BlazorLib1\\BlazorLib1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

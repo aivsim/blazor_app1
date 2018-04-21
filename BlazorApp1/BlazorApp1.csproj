@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\Todo.cshtml" />
+    <ProjectReference Include="..\BlazorLib1\BlazorLib1.csproj" />
   </ItemGroup>
 
 </Project>
